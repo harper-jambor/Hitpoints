@@ -1,6 +1,6 @@
 Name,Class,Fire Rate,Damage Rolls,Damage Constant
 AK,Rifle,20,4,2
-AR,Rifle,16,4,4
-Glock,Pistol,2,1,2
+AR,Rifle,17,4,4
+Glock,Pistol,10,1,2
 Arming sword,1H Sword,1,0,2
 Longsword,2H Sword,1,0,5
