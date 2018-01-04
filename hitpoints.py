@@ -117,7 +117,7 @@ def shots_fired_calc(offense, defence):
 def fired_hits_calc(offense, defence, shots_fired):
     print('\n' * 2)
 
-    dodge = ceil((int(defence['Dexterity']) + int(defence['Health'])) / 2.0)
+    dodge = flor((int(defence['Dexterity']) + int(defence['Health'])) / 4.0)
     print('dodge: ', dodge)
     fired_hits = roll_dice(3, 6) - dodge - int(defence['Armor'])
     print('actual fired-hits: ', fired_hits)
